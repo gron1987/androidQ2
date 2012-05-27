@@ -15,7 +15,7 @@ import android.os.IBinder;
  * Date: 5/27/12
  * Time: 12:42 AM
  */
-public class Q2 extends Service {
+public class Q2Service extends Service {
 
     private static final int NOTIFICATION_ID = 1;
 
