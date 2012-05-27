@@ -1,11 +1,9 @@
 package com.q2;
 
 import android.app.Activity;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.BatteryManager;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -36,7 +34,7 @@ public class MainActivity extends Activity
         registerReceiver(new batteryInfoReceiver(), new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
 
         // start service
-        Intent serviceIntent = new Intent(this, Q2.class);
+        Intent serviceIntent = new Intent(this, Q2Service.class);
         startService(serviceIntent);
     }
 }

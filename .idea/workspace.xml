@@ -13,7 +13,12 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93a24a15-4fb2-4aa9-aceb-591cb97ba211" name="Default" comment="" />
+    <list default="true" id="93a24a15-4fb2-4aa9-aceb-591cb97ba211" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/q2/Q2.java" afterPath="$PROJECT_DIR$/src/com/q2/Q2Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/q2/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/q2/MainActivity.java" />
+    </list>
     <ignored path="androidProjectQ2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -529,9 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/q2/Q2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/q2/Q2Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="309" selection-end="309" vertical-scroll-proportion="0.33678755">
+        <state line="30" column="61" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.46632123">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
