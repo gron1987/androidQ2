@@ -21,4 +21,5 @@
         </receiver>
         <service android:name=".Q2Service"/>
     </application>
+    <supports-screens android:xlargeScreens="true" />
 </manifest> 
