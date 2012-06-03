@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 
         // get info when battery capacity changed
         context = getApplicationContext();
-        registerReceiver(new batteryInfoReceiver(), new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
+        registerReceiver(new BatteryInfoReceiver(), new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
 
         // start service
         Intent serviceIntent = new Intent(this, Q2Service.class);

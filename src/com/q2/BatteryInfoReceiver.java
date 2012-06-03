@@ -11,7 +11,7 @@ import android.os.BatteryManager;
  * Date: 5/27/12
  * Time: 12:40 AM
  */
-public class batteryInfoReceiver extends BroadcastReceiver {
+public class BatteryInfoReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL,0);
         MainActivity.showToast(level);

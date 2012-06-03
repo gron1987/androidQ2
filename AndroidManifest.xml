@@ -13,7 +13,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NotificationActivity"/>
-        <receiver android:name=".batteryInfoReceiver">
+        <receiver android:name=".BatteryInfoReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BATTERY_CHANGED" />
                 <category android:name="android.intent.category.DEFAULT" />

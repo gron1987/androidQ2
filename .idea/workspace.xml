@@ -14,10 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a24a15-4fb2-4aa9-aceb-591cb97ba211" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/q2/batteryInfoReceiver.java" afterPath="$PROJECT_DIR$/src/com/q2/BatteryInfoReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/q2/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/q2/MainActivity.java" />
     </list>
     <ignored path="androidProjectQ2.iws" />
@@ -75,7 +73,17 @@
     <favorites_list name="androidProjectQ2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BatteryInfoReceiver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/q2/BatteryInfoReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.41450778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/project.properties" />
         <option value="$PROJECT_DIR$/src/com/q2/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/q2/BatteryInfoReceiver.java" />
       </list>
     </option>
   </component>
@@ -408,14 +417,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1282" height="757" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6710744" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.6710744" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -498,11 +507,6 @@
         <state line="3" column="59" selection-start="164" selection-end="164" vertical-scroll-proportion="0.118421055" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/q2/batteryInfoReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="244" selection-end="244" vertical-scroll-proportion="0.24193548" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/q2/NotificationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="43" selection-start="560" selection-end="560" vertical-scroll-proportion="0.49222797" />
@@ -545,6 +549,13 @@
     <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="0.3626943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/q2/BatteryInfoReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.41450778">
           <folding />
         </state>
       </provider>
