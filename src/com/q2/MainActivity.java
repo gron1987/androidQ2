@@ -1,16 +1,19 @@
 package com.q2;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ListActivity {
     public static final String LOG_I_STATUS_TAG = "Status";
     public static Context context;
+    private String[] colors = {"Red","Blue","Green","Black","White"};
 
     /**
      * Show toast message for battery status
@@ -32,7 +35,6 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         Log.i(LOG_I_STATUS_TAG, "OnCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
 
         // get info when battery capacity changed
         context = getApplicationContext();
@@ -41,6 +43,9 @@ public class MainActivity extends Activity {
         // start service
         Intent serviceIntent = new Intent(this, Q2Service.class);
         startService(serviceIntent);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.row_layout,R.id.text1,colors);
+        setListAdapter(adapter);
     }
 
     /**

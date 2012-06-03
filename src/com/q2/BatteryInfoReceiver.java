@@ -13,7 +13,7 @@ import android.os.BatteryManager;
  */
 public class BatteryInfoReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-        int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL,0);
+        int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0);
         MainActivity.showToast(level);
     }
 }

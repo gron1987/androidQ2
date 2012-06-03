@@ -13,7 +13,7 @@ import android.widget.TextView;
  */
 public class NotificationActivity extends Activity {
 
-    public static final String NOTIFICATION_STRING="NotificationString";
+    public static final String NOTIFICATION_STRING = "NotificationString";
 
     public void onCreate(Bundle savedInstanceState) {
         // set view
@@ -23,7 +23,7 @@ public class NotificationActivity extends Activity {
         // change textview text from intent
         Bundle bundle = getIntent().getExtras();
         String newData = bundle.getString(NOTIFICATION_STRING);
-        if(newData != null){
+        if (newData != null) {
             TextView tv = (TextView) findViewById(R.id.tv);
             tv.setText(newData);
         }
