@@ -18,6 +18,7 @@ public final class R {
         public static final int icon_image=0x7f050001;
         public static final int icon_image_2=0x7f050002;
         public static final int text1=0x7f050003;
+        public static final int text2=0x7f050004;
         public static final int tv=0x7f050000;
     }
     public static final class layout {

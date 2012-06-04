@@ -5,15 +5,22 @@ import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class MainActivity extends ListActivity {
     public static final String LOG_I_STATUS_TAG = "Status";
     public static Context context;
-    private String[] colors = {"Red","Blue","Green","Black","White"};
+    private ListItem[] items;
 
     /**
      * Show toast message for battery status
@@ -44,7 +51,17 @@ public class MainActivity extends ListActivity {
         Intent serviceIntent = new Intent(this, Q2Service.class);
         startService(serviceIntent);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.row_layout,R.id.text1,colors);
+        ArrayList<ListItem> items = new ArrayList<ListItem>();
+        for(int i=0;i<10;i++){
+            items.add(new ListItem(
+                getResources().getDrawable(R.drawable.red),
+                getResources().getDrawable(R.drawable.gray),
+                "Item 1 " + Integer.toString(i),
+                "Item 2 " + Integer.toString(i)
+            ));
+        }
+
+        BaseAdapter adapter = new ItemAdapter(getApplicationContext(),items);
         setListAdapter(adapter);
     }
 
